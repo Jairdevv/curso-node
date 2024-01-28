@@ -13,5 +13,5 @@ console.log(base)
 const filename = path.basename('/tmp/jair-secret-files/password.txt', '.txt')
 console.log(filename)
 
-const extraname = path.extname('/tmp/jair-secret-files/password.txt')
-console.log(extraname)
+const extension = path.extname('my.image.space.jpg')
+console.log(extension)
